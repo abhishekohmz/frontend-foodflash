@@ -1,0 +1,340 @@
+.cart {
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+
+.cart h1 {
+    color: #7755a2;
+    font-weight: 400;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.cart .heading_2 {
+    text-align: start;
+}
+
+.cart-data-itemfield-main {
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.cart-data-itemfield-main h5 {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.cart-data-itemfield-main .cart-product {
+    text-align: start;
+}
+
+.cart-data-itemfield {
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 1fr 1fr;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.cart-data-itemfield .data {
+    display: flex;
+    gap: 30px;
+}
+
+.cart-data-itemfield .data img {
+    width: 180px;
+}
+
+.cart-data-itemfield h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cart-data-itemfield p {
+    margin-bottom: 0px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.cart-data-itemfield .cart-btn {
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+}
+
+
+.cart-data-itemfield .cart-btn button {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+
+.cart_submition {
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.redeem_code {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.redeem_fields {
+    display: flex;
+    gap: 10px;
+}
+
+.redeem_fields input {
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.redeem_fields button {
+    border: none;
+    outline: none;
+    background: #3c8031;
+    color: white;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+}
+
+.redeem_code p {
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+
+.checkout {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cart_butttons {
+    display: flex;
+    gap: 15px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    padding-bottom: 50px;
+    align-items: center;
+    justify-content: end;
+}
+
+.cart_butttons button {
+    border: none;
+    outline: none;
+    background: #777777;
+    color: white;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+.subtotal,
+.grand_total,
+.amount_to_pay {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtotal h5,
+.grand_total h5,
+.amount_to_pay h5 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.amount_to_pay {
+    color: #3c8031;
+}
+
+.checkout_btn {
+    display: flex;
+    justify-content: end;
+}
+
+.checkout_btn button {
+    border: none;
+    outline: none;
+    background: #3c8031;
+    color: white;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:992px) {
+
+    .cart {
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .redeem_fields input {
+        font-size: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .redeem_fields button {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 10px;
+    }
+
+    .redeem_code p {
+        font-size: 10px;
+    }
+
+    .checkout_btn button {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 10px;
+    }
+
+    .subtotal h5,
+    .grand_total h5,
+    .amount_to_pay h5 {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .cart_butttons {
+        gap: 10px;
+        padding-bottom: 30px;
+    }
+
+    .cart_butttons button {
+        font-size: 10px;
+    }
+
+    .cart_submition {
+        grid-template-columns: 6fr 5fr;
+    }
+
+    .cart-data-itemfield-main {
+        padding-bottom: 8px;
+    }
+
+    .cart-data-itemfield-main h5 {
+        font-size: 12px;
+    }
+
+    .cart-data-itemfield {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .cart-data-itemfield .data {
+        gap: 20px;
+    }
+
+    .cart-data-itemfield .data img {
+        width: 100px;
+    }
+
+    .cart-data-itemfield h5 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .cart-data-itemfield p {
+        font-size: 13px;
+    }
+
+    .cart h1 {
+        font-size: 24px
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .redeem_fields input {
+        font-size: 8px;
+        padding-left: 6px;
+        padding-right:6px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .redeem_fields button {
+        padding-left: 6px;
+        padding-right: 6px;
+        font-size:9px;
+    }
+
+    .redeem_code p {
+        font-size: 8px;
+    }
+
+    .checkout_btn button {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 10px;
+    }
+
+
+    .subtotal h5,
+    .grand_total h5,
+    .amount_to_pay h5 {
+        font-size: 10px;
+    }
+
+    .cart_butttons button {
+        font-size:8px;
+        padding: 1px;
+    }
+
+    .cart-data-itemfield .cart-btn button {
+        border: none;
+        outline: none;
+        background: transparent;
+        font-size: 12px;
+    }
+
+    .cart-data-itemfield .data {
+        gap: 10px;
+    }
+
+    .cart-data-itemfield .data img {
+        width: 80px;
+    }
+
+    .cart-data-itemfield-main h5 {
+        font-size: 8px;
+    }
+
+    .cart-data-itemfield h5 {
+        font-size: 10px;
+    }
+
+    .cart-data-itemfield p {
+        font-size: 10px;
+    }
+
+    .cart h1 {
+        font-size: 18px
+    }
+}

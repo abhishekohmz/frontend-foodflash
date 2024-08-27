@@ -1,0 +1,17 @@
+
+.contents{
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+@media screen and (max-width:576px) {
+
+    .user .col-lg-2{
+        border-bottom: 1px solid gray;
+    }
+    .contents{
+        padding-top: 10px;
+    padding-left: 0px;
+    }
+}

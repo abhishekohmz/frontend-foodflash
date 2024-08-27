@@ -1,0 +1,134 @@
+.information h1{
+    color: #58a6d6;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+
+.information .form .first_name,
+.information .form .last_name,
+.information .form .mobile,
+.information .form .email,
+.information .form .current-password,
+.information .form .new-password,
+.information .form .confirm-password{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+.mobile-data{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #a7a2a2;
+    border-radius: 3px;
+    padding-top: 2px;
+    background: #e0dfe2;
+}
+.mobile-data p{
+    margin-bottom: 0px;
+}
+.mobile-data input{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.checkbox-section{
+    display: flex;
+    gap: 10px;
+}
+
+.information label{
+    color: #686666;
+}
+
+.information .save{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.information .save a{
+    margin-bottom: 0px;
+    text-decoration: none;
+    color: #686666;
+    font-size: 14px;
+}
+
+.information .save button{
+    border: none;
+    outline:none;
+    background:#58a6d6 ;
+    color: white;
+    width: 100%;
+}
+
+@media screen and (max-width:992px) {
+
+
+    .information .save a{
+        margin-bottom: 0px;
+        text-decoration: none;
+        color: #686666;
+        font-size: 12px;
+    }
+
+    .information .save button{
+        width: 100%;
+        font-size: 12px;
+    }
+    .information label{
+        color: #686666;
+        font-size: 10px;
+    }
+    .information input{
+        font-size: 13px;
+    }
+    .information h5{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .information h1{
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+    .information {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .information .save a{
+        margin-bottom: 0px;
+        text-decoration: none;
+        color: #686666;
+        font-size: 14px;
+    }
+    
+    .information .save button{
+        width: 100%;
+        font-size: 12px;
+    }
+    .information .save{
+        margin-top: 20px;
+    }
+    .information input{
+        font-size: 13px;
+    }
+    .information h5{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .information h1{
+        font-weight: 600;
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    .information {
+        margin-bottom: 30px;
+    }
+}

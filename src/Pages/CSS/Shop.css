@@ -1,0 +1,35 @@
+
+/* slick carousel */
+
+.shop-container .slick-ads{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.shop-container .slider-carousel{
+    width: 100%;
+}
+
+.shop-container .slider-carousel img{
+    border-radius: 20px;
+    height: 450px;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width:992px) {
+    .shop-container .slider-carousel img{
+        border-radius: 20px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .shop-container .slider-carousel img{
+        border-radius: 20px;
+        height: 200px;
+    }
+
+}

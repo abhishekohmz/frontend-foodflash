@@ -1,0 +1,83 @@
+/* DailyDeals.css */
+.dailydeals {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .dailydeals .slick-slider {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+  
+  .dailydeals h3 {
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: Moderustic;
+    color: rgb(57, 57, 57);
+    font-size: 26px;
+    font-weight: 600;
+  }
+  
+  .dailydeals-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+  }
+  
+  .dailydeals-data .slick-slider {
+    display: none;
+  }
+
+  @media screen and (max-width:992px) {
+    .dailydeals-grid {
+      display: none;
+    }
+    .dailydeals-data {
+      display: block;
+    }
+  
+    .dailydeals-data .slick-slider {
+      display: block;
+    }
+
+    .dailydeals h3 {
+      font-size: 18px;
+    }
+
+    .dailydeals {
+     
+      padding-top: 0px;
+      padding-bottom: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+
+    .dailydeals {
+       padding-bottom: 15px;
+       padding-top: 0px;
+      }
+    .dailydeals h3 {
+      margin-bottom: 10px;
+      font-size: 13px;
+      font-weight: 600;
+      text-align: start;
+    }
+  
+    .dailydeals-data {
+      display: block;
+    }
+  
+    .dailydeals-data .slick-slider {
+      display: block;
+    }
+
+    .dailydeals-grid {
+      display: none;
+    }
+  }
+  

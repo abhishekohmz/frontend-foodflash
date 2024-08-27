@@ -1,0 +1,109 @@
+.category-data {
+    margin-top: 40px;
+    border: 1px solid #58a6d6;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.category-data h3 {
+    margin-bottom: 50px;
+    font-family: Moderustic;
+    color: rgb(57, 57, 57);
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.shop-by-category {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.shop-by-category-items {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.shop-by-category-items img {
+    width: 100%;
+    height: 150px;
+}
+
+.shop-by-category-items h5 {
+    color: black;
+    font-size: 18px;
+    font-family: Moderustic;
+}
+
+@media screen and (max-width:992px) {
+    .shop-by-category-items {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .category-data h3{
+        font-size: 18px;
+    }
+    
+    .shop-by-category-items h5 {
+        font-size: 10px;
+    }
+    .shop-by-category-items img {
+        width: 100%;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    
+}
+
+@media screen and (max-width:576px) {
+
+    .category-data {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: none;
+
+    }
+
+    .category-data h3{
+        font-size: 13px;
+        text-align: start;
+        margin-bottom: 10px;
+    }
+    .shop-by-category {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .shop-by-category-items {
+        width: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .shop-by-category-items h5 {
+        color: black;
+        font-size: 9px;
+        text-align: center;
+        font-family: Moderustic;
+    }
+
+    .shop-by-category-items img {
+        width: 100%;
+        height: 60px;
+    }
+}

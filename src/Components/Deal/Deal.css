@@ -1,0 +1,70 @@
+
+.deal_kerala{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.deal_kerala .slick-slider {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.deal_kerala h3{
+    text-align: center;
+    font-family: Moderustic;
+    color: rgb(57, 57, 57);
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.dealkerala-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+  .dealkerala_data .slick-slider {
+    display: none;
+  }
+  
+@media screen and (max-width:992px) {
+  .dealkerala_data {
+    display: block;
+  }
+
+  .dealkerala_data .slick-slider {
+    display: block;
+  }
+
+  .dealkerala-grid {
+    display: none;
+  }
+  .deal_kerala h3{
+  font-size: 18px;
+}
+}
+
+  @media screen and (max-width: 576px) {
+   
+    .deal_kerala{
+        margin-bottom: 15px;
+        margin-top: 15px;
+      }
+    .deal_kerala h3{
+        text-align: start;
+        font-size: 13px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .dealkerala_data {
+      display: block;
+    }
+  
+    .dealkerala_data .slick-slider {
+      display: block;
+    }
+  
+    .dealkerala-grid {
+      display: none;
+    }
+  }
+  

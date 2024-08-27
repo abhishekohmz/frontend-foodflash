@@ -1,0 +1,401 @@
+.navbar-fixed-top {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.navbar-1 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background: #58a6d6;
+    height: 30px;
+    width: 100%;
+}
+
+.navbar-mail-phone {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-mail-phone p {
+    font-size: 13px;
+    margin-bottom: 0px;
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-1-links {
+    display: flex;
+    gap: 50px;
+}
+
+.navbar-1-links ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin-bottom: 0px;
+    align-items: center;
+
+}
+
+.navbar-1-links ul li p {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.navbar-1-links ul li {
+    display: flex;
+}
+
+.whyus,
+.newsroom,
+.sell-with-us {
+    border-left: 1px solid;
+    padding-left: 10px;
+    border-color: white;
+}
+
+.navbar-1-links p {
+    margin-bottom: 0px;
+    color: white;
+}
+
+.navbar-2 {
+    box-shadow: 0 1px 3px -2px rgba(0, 0, 0, 0.685);
+    background: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar2-logo {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar2-logo img {
+    width: 80px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    border-color: #d9d9d9;
+    width: 500px;
+}
+
+.input-text {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.navbar-2-div {
+    display: flex;
+    justify-content: end;
+}
+
+.button {
+    border: none;
+    background-color: white;
+}
+
+.button i {
+    color: #58a6d6;
+}
+
+.navbar-2-cart-profile {
+    margin-right: 10px;
+    gap: 20px;
+    justify-content: center;
+    display: flex
+}
+
+.navbar-2-cart-profile .nav2-btn {
+    border-radius: 80px;
+    width: 50px;
+    padding: 10px;
+    background: white;
+    border: 1px solid #58a6d6;
+    outline: none;
+}
+
+.navbar-2-cart-profile .nav2-btn i {
+    color: #58a6d6;
+}
+
+.nav-cart-count {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5px;
+    margin-left: -40px;
+    border-radius: 11px;
+    font-size: 12px;
+    background: red;
+    color: white;
+}
+
+.navbar-2-cart-profile .modal {
+    width: 100%;
+}
+
+.navbar-2-cart-profile .modal-body {
+    padding: 0px;
+}
+
+.navbar-2-cart-profile .modal .modal-content {
+    margin-top: 100px;
+    margin-left: 100%;
+    max-width: 420px;
+    border-radius: 0px;
+
+}
+
+.navbar-2-cart-profile .modal .modal-content .modal-header {
+    border-radius: 0px;
+    background: #58a6d6;
+    color: white;
+}
+
+.navbar-2-cart-profile .modal .modal-content .modal-header .modal-title {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar-2-cart-profile .modal .modal-content .modal-header .modal-title span {
+    font-weight: 700;
+}
+
+.navbar-2-cart-profile .modal .modal-content .modal-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-2-cart-profile .modal .modal-content .modal-footer .links{
+    display: flex;
+    gap: 20px;
+}
+
+.btn-close {
+    font-size: 10px;
+    color: white;
+}
+
+.my-custom-class {
+    background: #58a6d6;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.navbar-2-cart-profile .modal .modal-body {
+    overflow-y: scroll;
+    max-height: 50vh;
+}
+
+.navbar-2-cart-profile .addtocart {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 10px;
+    border-bottom: 1px solid;
+    padding: 10px;
+    align-items: center;
+}
+.navbar-2-cart-profile .addtocart button {
+    border: none;
+    outline: none;
+    background: transparent;
+ }
+.navbar-2-cart-profile .addtocart h5 {
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(81, 78, 78);
+}
+
+.navbar-2-cart-profile .addtocart p {
+    margin-bottom: 0px;
+    color: rgb(81, 78, 78);
+}
+
+.navbar-2-cart-profile .addtocart img {
+    width: 100px;
+}
+
+
+
+@media screen and (max-width:992px) {
+
+
+    .navbar-2-cart-profile .modal .modal-body {
+        overflow-y: scroll;
+        max-height: 50vh;
+    }
+
+    .my-custom-class {
+        border: none;
+        outline: none;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: white;
+        font-size: 13px;
+    }
+
+    .navbar-2-cart-profile .addtocart button {
+       border: none;
+       outline: none;
+       background: transparent;
+    }
+    .navbar-2-cart-profile .modal .modal-content .modal-header .modal-title {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .navbar-2-cart-profile .modal .modal-content {
+        margin-top: 80px;
+        margin-left: 80px;
+        width: 100%;
+    }
+
+    .navbar-2-cart-profile .nav2-btn i {
+        font-size: 13px;
+    }
+
+    .navbar-2-cart-profile .nav2-btn {
+        border-radius: 80px;
+        height: 40px;
+        width: 40px;
+        padding: 0px;
+    }
+
+    .input-text {
+        font-size: 14px;
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+
+    .navbar-1 {
+        display: none !important;
+    }
+
+    .search-form {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+
+    .navbar-1 {
+        display: none !important;
+    }
+
+    .navbar-2 {
+        width: 100%;
+    }
+
+    .navbar2-logo {
+        gap: 10px;
+    }
+
+    .navbar2-logo img {
+        width: 50px;
+    }
+
+    .search-form {
+        width: 160px;
+        height: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .input-text {
+        font-size: 8px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .button {
+        background: transparent;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    .button i {
+        font-size: 14px;
+    }
+
+    .navbar-2-cart-profile .nav2-btn i {
+        font-size: 12px;
+    }
+
+    .navbar-2-cart-profile .modal .modal-content {
+        margin-top: 80px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .navbar-2-cart-profile {
+        margin-right: 20px;
+        gap: 10px;
+    }
+
+    .navbar-2-cart-profile .nav2-btn {
+        border-radius: 80px;
+        height: 30px;
+        width: 30px;
+        padding: 0px;
+    }
+
+    .navbar-2-cart-profile {
+        margin-right: 0px;
+    }
+
+    .nav-cart-count {
+        width: 14px;
+        height: 14px;
+        margin-left: -25px;
+    }
+
+    .navbar-2-cart-profile .modal .modal-content .modal-header .modal-title {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .btn-close {
+        font-size: 8px;
+    }
+
+    .my-custom-class {
+        border: none;
+        outline: none;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: white;
+        font-size: 10px;
+    }
+
+    .navbar-2-cart-profile .modal .modal-body {
+        overflow-y: scroll;
+        max-height: 50vh;
+    }
+}

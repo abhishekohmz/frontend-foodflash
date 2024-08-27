@@ -1,0 +1,288 @@
+.signup-login {
+    margin-top: 50px;
+    font-family: Moderustic;
+}
+
+.signup-login h1 {
+    color: #58a6d6;
+    margin-bottom: 30px;
+}
+
+.signup,
+.login {
+    border: 1px solid #58a6d6;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.signup {
+    height: 70%;
+}
+
+.signup h4 {
+    color: #58a6d6;
+}
+
+.signup .signup-itemfield-mobile {
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 2px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.signup .signup-itemfield-mobile p {
+    margin-bottom: 0px;
+    color: gray;
+    padding: 4px;
+    font-size: 14px;
+}
+
+.signup .signup-itemfield-mobile input {
+    border: none;
+    outline: none;
+    width: fit-content;
+}
+
+.signup-itemfield-firstname,
+.signup-itemfield-lastname,
+.signup-itemfield-email,
+.signup-itemfield-password {
+    width: 100%;
+    font-size: 14px;
+}
+
+.signup .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.signup .register-btn button {
+    border: none;
+    outline: none;
+    background: #58a6d6;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+
+.signup .modal .modal-content {
+    width: 350px;
+    margin-top: 100px;
+
+}
+
+
+.login h5,
+p,
+.signup h5,
+p {
+    font-size: 12px;
+}
+
+.form label {
+    font-size: 13px;
+    font-weight: 700;
+    color: #777777;
+}
+
+.login-inputfield {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    gap: 6px;
+}
+
+.login-inputfield .form-control {
+    border-radius: 0px;
+    border: 1px solid gray;
+}
+
+.login-inputfield p {
+    margin-bottom: 0px;
+}
+
+.login-inputfield .checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.login-inputfield .checkbox p {
+    margin-bottom: 0px;
+}
+
+.signup-login a {
+    color: #777777;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.login button,
+.signup .signup-btn {
+    border: 1px solid #58a6d6;
+    background: #2972f9;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+
+.signup .modal-header button {
+    color: rgb(250, 0, 0);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 10px;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width:992px) {
+
+
+    .login button,
+    .signup .signup-btn {
+        font-size: 12px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .login-inputfield .form-control {
+        font-size: 13px;
+    }
+    .signup-login {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .signup-login h1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .signup-login a {
+        color: #777777;
+        font-size: 10px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    .login button,
+    .signup .signup-btn {
+        font-size: 12px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .login-inputfield .form-control {
+        font-size: 12px;
+    }
+
+    .form label {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .login h5,
+    p,
+    .signup h5,
+    p {
+        font-size: 10px;
+    }
+
+    .signup .modal-body {
+        padding-top: 0px;
+    }
+
+    .signup h4 {
+        font-size: 14px;
+    }
+
+    .signup .signup-itemfield-mobile p {
+        padding: 2px;
+        font-size: 12px;
+    }
+
+    .signup .signup-itemfield-mobile input {
+        font-size: 13px;
+    }
+
+    .signup-itemfield-firstname,
+    .signup-itemfield-lastname,
+    .signup-itemfield-email,
+    .signup-itemfield-password {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .signup .form {
+        gap: 6px;
+    }
+
+    .signup .register-btn button {
+        font-size: 13px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin-top: 0px;
+    }
+
+
+    .signup .modal .modal-content {
+        width: 100%;
+        margin-top: 120px;
+
+    }
+
+    .signup,
+    .login {
+        border: 1px solid grey;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .signup {
+        height: 100%;
+    }
+
+    .signup-login h1 {
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .signup-login .row {
+        display: flex;
+        gap: 15px;
+    }
+
+    .signup-login {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}

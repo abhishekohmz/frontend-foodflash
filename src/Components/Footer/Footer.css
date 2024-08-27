@@ -1,0 +1,21 @@
+
+.footer h6{
+    color: #58a6d6;
+}
+
+.footer img{
+    width: 80px;
+}
+
+@media screen and (max-width:992px) {
+    .footer h6{
+        font-size: 10px;
+    }
+    .footer p{
+        margin-bottom: 3px;
+        font-size: 8px;
+    }
+    .footer img{
+        width: 50px;
+    }
+}

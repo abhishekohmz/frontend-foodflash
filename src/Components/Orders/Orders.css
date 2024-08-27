@@ -1,0 +1,119 @@
+/* Orders.css */  
+  .orders_data h1 {
+    color: #58a6d6;
+    font-weight: 400;
+    padding-bottom: 25px;
+  }
+  
+  .orders_data table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+  }
+  
+  .orders_data table th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .orders_data thead {
+    background-color: #f4f4f4;
+  }
+  
+  .orders_data th {
+    font-weight: bold;
+  }
+  .orders_data img {
+    max-width: 100px;
+    height: auto;
+  }
+  .orders_data tr{
+    border-bottom: 1px solid;
+  }
+
+.orders_data .p {
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .orders_data a {
+    color: gray;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  
+  .orders_data a:hover {
+    text-decoration: underline;
+  }
+  
+
+  @media screen and (max-width:992px) {
+    .orders_data a {
+      font-size: 10px;
+    }
+
+    .orders_data td{
+      font-size: 10px;
+    }
+
+    .orders_data th {
+      font-weight: bold;
+      font-size: 10px;
+    }
+
+    .orders_data table th, td {
+      padding: 6px;
+    }
+    .orders_data table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom:20px;
+    }
+    .orders_data h1 {
+      font-size: 24px;
+      padding-bottom: 10px;
+    }
+
+    .orders_data{
+      margin-bottom: 30px;
+    }
+  }
+
+
+  @media screen and (max-width:576px) {
+
+
+    .orders_data a {
+      font-size: 10px;
+    }
+
+    .orders_data td{
+      font-size: 10px;
+    }
+
+    .orders_data th {
+      font-weight: bold;
+      font-size: 10px;
+    }
+
+    .orders_data table th, td {
+      padding: 2px;
+    }
+    .orders_data table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom:20px;
+    }
+    .orders_data h1 {
+      font-weight: 600;
+      font-size: 15px;
+      padding-bottom: 10px;
+    }
+
+    .orders_data{
+      margin-bottom: 30px;
+    }
+    
+  }
